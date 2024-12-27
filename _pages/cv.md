@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Biomedical Engineering, Columbia University, 2022
+* M.S. in Biomedical Engineering, Columbia University, 2018
+* B.S. in Biomedical Engineering, The University of North Carolina at Chapel Hill, 2015
 
 Work experience
 ======
@@ -41,7 +41,7 @@ Skills
   * Sub-skill 2.3
 * Skill 3
 
-Publications
+Selected Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
