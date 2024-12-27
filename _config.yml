@@ -8,9 +8,9 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Academic Profile"
+title                    : "Stephen Alexander Lee"
 title_separator          : "-"
-name                     : &name "Stephen Alexander Lee"
+name                     : &name "Stephen Alexander Lee, PhD"
 description              : &description "personal description"
 url                      : https://stephenalexanderlee.github.io # the base hostname & protocol for your site e.g. "https://[your GitHub username].github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -21,7 +21,7 @@ repository               : "stephenalexanderlee/stephenalexanderlee.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Stephen A. Lee"
   pronouns         : # example: "she/her"  
   bio              : "Researcher in the field of Ultrasound Therapeutics & Diagnostics for better brain health"
