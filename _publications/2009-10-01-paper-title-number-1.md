@@ -7,7 +7,7 @@ excerpt: 'This paper is about the number 1. The number 2 is left for future work
 date: 2020-05-14
 venue: 'IEEE Transactions on Medical Imaging'
 slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
-paperurl: 'http://academicpages.github.io/files/files/Displacement_Imaging_for_Focused_Ultrasound_Peripheral_Nerve_Neuromodulation.pdf'
+paperurl: 'http://academicpages.github.io/files/Displacement_Imaging_for_Focused_Ultrasound_Peripheral_Nerve_Neuromodulation.pdf'
 citation: 'Lee, Stephen A. (2020). &quot;Displacement Imaging for Focused Ultrasound Peripheral Nerve Neuromodulation.&quot; <i>IEEE Transactions on Medical Imaging</i>. vol. 39, no. 11, pp. 3391-3402, Nov. 2020.'
 ---
 
