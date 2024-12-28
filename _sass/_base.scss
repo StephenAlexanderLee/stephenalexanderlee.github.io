@@ -269,10 +269,11 @@ svg:not(:root) {
   justify-content: flex-end;
   top:auto;
   left: 0;
-  width: 100vw;
+  width: 100%;
   height: 45vh; /* Ensure it covers the full height */
   background: linear-gradient(to right, $background-color 0%, $background-color 20%, black 50%, black 100%); /* Sharper gradient from left to mid-page */
   z-index: -1; /* Place it behind other elements */
+  overflow: hidden; /* Hide the overflow */
 }
 
 .image-container::before,
@@ -311,6 +312,7 @@ svg:not(:root) {
   position: absolute; /* Ensure the pseudo-element is positioned correctly */
   width: auto;
   height: 100%;
+  object-fit: cover;
   margin-left: auto;
   animation: slideInFromRight 1s ease-in-out; /* Apply the animation */
 }
@@ -331,6 +333,7 @@ svg:not(:root) {
   font-variant: small-caps;
 }
 
+
 .image-container .overlay-title {
   opacity: 1;
   @extend .fade-in;
@@ -341,6 +344,28 @@ svg:not(:root) {
   margin-top: 50vh; /* Push content below the full viewport height */
 }
 
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .image-container {
+    height: 30vh; /* Adjust height for mobile */
+  }
+
+  .overlay-image {
+    width: 100%;
+    height: auto; /* Adjust height for mobile */
+  }
+
+  .overlay-title {
+    font-size: 1.5em; /* Adjust font size for mobile */
+    padding: 10px;
+    top: 50%; /* Adjust position for mobile */
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .content-container {
+    margin-top: 30vh; /* Adjust margin for mobile */
+  }
+}
 /*
    Navigation lists
    ========================================================================== */
