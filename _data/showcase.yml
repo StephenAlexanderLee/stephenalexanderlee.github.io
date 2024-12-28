@@ -1,0 +1,21 @@
+series1:
+  - title: "Photo 1"
+    image: "/images/photo-grid/DSCF0111.jpg"
+  - title: "Photo 2"
+    image: "/images/photo-grid/DSCF0166.jpg"
+  - title: "Photo 3"
+    image: "/images/photo-grid/DSCF0208.jpg"
+
+series2:
+  - title: "Photo 4"
+    image: "/images/photo-grid/DSCF0271.jpg"
+  - title: "Photo 5"
+    image: "/images/photo-grid/DSCF0278.jpg"
+
+series3:
+  - title: "Photo 7"
+    image: "/images/photo-grid/DSCF0240.jpg"
+  - title: "Photo 8"
+    image: "/images/photo-grid/DSCF0250.jpg"
+  - title: "Photo 9"
+    image: "/images/photo-grid/DSCF0260.jpg"

@@ -97,6 +97,9 @@
 <loc>http://localhost:4000/portfolio/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/portfolio/</loc>
+</url>
+<url>
 <loc>http://localhost:4000/publications/</loc>
 </url>
 <url>
@@ -119,6 +122,10 @@
 </url>
 <url>
 <loc>http://localhost:4000/year-archive/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/files/CV.pdf</loc>
+<lastmod>2024-11-16T22:20:20+00:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/files/Displacement_Imaging_for_Focused_Ultrasound_Peripheral_Nerve_Neuromodulation.pdf</loc>

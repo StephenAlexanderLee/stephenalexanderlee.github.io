@@ -1,0 +1,30 @@
+.photo-grid-container {
+    width: 100vw; /* Full viewport width */
+    margin: 0 auto; /* Center the container */
+}
+  
+.photo-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 2px; /* Minimal spacing between items */
+    padding: 2px; /* Minimal padding inside the container */
+    justify-content: flex-start; /* Align items to the left */
+}
+
+.photo-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.photo-item img {
+    width: auto; /* Ensure the image fits within the container's width */
+    height: 250px; /* Maintain the image's aspect ratio */
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.photo-item:hover img {
+    transform: scale(1.05); /* Slight zoom on hover */
+}

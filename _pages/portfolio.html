@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: photo-grid
 title: "Portfolio"
 permalink: /portfolio/
 author_profile: true
@@ -7,8 +7,33 @@ author_profile: true
 
 {% include base_path %}
 
+<section>
+  <h2>Series 1</h2>
+  <div class="photo-grid-container">
+    <div class="photo-grid">
+      {% for post in site.data.showcase.series1 %}
+        <div class="photo-item">
+          <a href="{{ post.image }}" class="image-popup">
+            <img src="{{ post.image }}" alt="{{ post.title }}">
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
 
-{% for post in site.portfolio %}
-  {% include archive-single.html %}
-{% endfor %}
+<section>
+  <h2>Series 2</h2>
+  <div class="photo-grid-container">
+    <div class="photo-grid">
+      {% for post in site.data.showcase.series2 %}
+        <div class="photo-item">
+          <a href="{{ post.image }}" class="image-popup">
+            <img src="{{ post.image }}" alt="{{ post.title }}">
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
 
