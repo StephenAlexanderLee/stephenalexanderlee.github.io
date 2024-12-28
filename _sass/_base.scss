@@ -261,6 +261,64 @@ svg:not(:root) {
   overflow: hidden;
 }
 
+/* Responsive image embeds */
+
+.image-container {
+  position:absolute; /* Position it absolutely */
+  display: flex;
+  justify-content: flex-end;
+  top:auto;
+  left: 0;
+  width: 100vw;
+  height: 45vh; /* Ensure it covers the full height */
+  background-color: black; /* Set background color to black */
+  z-index: -1; /* Place it behind other elements */
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.overlay-image {
+  position: absolute; /* Ensure the pseudo-element is positioned correctly */
+  width: auto;
+  height: 100%;
+  margin-left: auto;
+  animation: slideInFromRight 1s ease-in-out; /* Apply the animation */
+}
+
+.overlay-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the text */
+  color: white;
+  padding: 20px;
+  font-size: 2em; /* Larger text */
+  text-align: center;
+  opacity: 0;
+  transition: opacity 1s ease-in-out; /* Ease in on site load */
+  animation-delay: 5s;
+  white-space: nowrap;
+  font-variant: small-caps;
+}
+
+.image-container .overlay-title {
+  opacity: 1;
+  @extend .fade-in;
+}
+
+/* Content container to push content below the fixed image */
+.content-container {
+  margin-top: 50vh; /* Push content below the full viewport height */
+}
 
 /*
    Navigation lists
